@@ -56,7 +56,9 @@
 		6349394423AAC51700290EF6 /* Tictactoe */ = {
 			isa = PBXGroup;
 			children = (
-				6349394923AAC51700290EF6 /* ViewController.swift */,
+				6349395D23AAC9E200290EF6 /* ViewControllers */,
+				6349395C23AAC9D900290EF6 /* ModelControllers */,
+				6349395B23AAC9D200290EF6 /* Models */,
 				6349394B23AAC51700290EF6 /* Main.storyboard */,
 				6349395923AAC52A00290EF6 /* Resources */,
 				6349395323AAC51A00290EF6 /* Info.plist */,
@@ -73,6 +75,28 @@
 				6349395023AAC51A00290EF6 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6349395B23AAC9D200290EF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6349395C23AAC9D900290EF6 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		6349395D23AAC9E200290EF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6349394923AAC51700290EF6 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
