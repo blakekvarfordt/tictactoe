@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,7 +28,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWw-FF-s0i"/>
                                                     <action selector="topLeftButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UIg-yc-CW4"/>
                                                 </connections>
                                             </button>
@@ -36,7 +35,6 @@
                                                 <rect key="frame" x="134" y="0.0" width="50" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cld-rf-Ssl"/>
                                                     <action selector="topCenterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ut-fN-5Mq"/>
                                                 </connections>
                                             </button>
@@ -44,7 +42,6 @@
                                                 <rect key="frame" x="268" y="0.0" width="50" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voC-m3-5EG"/>
                                                     <action selector="topRightButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ht-mG-vpG"/>
                                                 </connections>
                                             </button>
@@ -57,7 +54,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eI2-QJ-3pP"/>
                                                     <action selector="centerLeftButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8TZ-SG-ONV"/>
                                                 </connections>
                                             </button>
@@ -65,7 +61,6 @@
                                                 <rect key="frame" x="136" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="te7-mV-zpL"/>
                                                     <action selector="centerCenterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RcZ-Rn-XEI"/>
                                                 </connections>
                                             </button>
@@ -73,7 +68,6 @@
                                                 <rect key="frame" x="272" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V6i-fF-9Wa"/>
                                                     <action selector="centerRightButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dvO-ck-jtg"/>
                                                 </connections>
                                             </button>
@@ -87,7 +81,6 @@
                                                 <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="bottomLeftButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAp-hK-97U"/>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ioa-o7-Q2t"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qju-qv-CPM">
@@ -95,7 +88,6 @@
                                                 <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="bottomCenterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KaB-Dx-O2B"/>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPq-07-7hT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYl-2G-KwU">
@@ -103,7 +95,6 @@
                                                 <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="bottomRightButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V0o-o1-81o"/>
-                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="44y-Lf-DJr"/>
                                                 </connections>
                                             </button>
                                         </subviews>
