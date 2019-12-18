@@ -25,12 +25,25 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var bottomRightButton: UIButton!
     
+    private var turn: Bool = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
 
     @IBAction func topLeftButtonTapped(_ sender: UIButton) {
+        if turn == true {
+            topLeftButton.setTitle("x", for: .normal)
+            turn = false
+//            topLeftButton.titleLabel?.font = UIFont(name: "system", size: 40)
+            topLeftButton.isEnabled = false
+        } else {
+            topLeftButton.setTitle("o", for: .normal)
+            turn = true
+//            topLeftButton.titleLabel?.font = UIFont(name: "system", size: 40)
+            topLeftButton.isEnabled = false
+        }
     }
     
     @IBAction func topCenterButtonTapped(_ sender: UIButton) {
