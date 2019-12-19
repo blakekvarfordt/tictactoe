@@ -34,12 +34,12 @@ class ViewController: UIViewController {
 
     @IBAction func topLeftButtonTapped(_ sender: UIButton) {
         if turn == true {
-            topLeftButton.setTitle("x", for: .normal)
+            topLeftButton.setTitle("X", for: .normal)
             turn = false
 //            topLeftButton.titleLabel?.font = UIFont(name: "system", size: 40)
             topLeftButton.isEnabled = false
         } else {
-            topLeftButton.setTitle("o", for: .normal)
+            topLeftButton.setTitle("O", for: .normal)
             turn = true
 //            topLeftButton.titleLabel?.font = UIFont(name: "system", size: 40)
             topLeftButton.isEnabled = false
@@ -47,28 +47,103 @@ class ViewController: UIViewController {
     }
     
     @IBAction func topCenterButtonTapped(_ sender: UIButton) {
+        if turn == true {
+            topCenterButton.setTitle("X", for: .normal)
+            turn = false
+            topCenterButton.isEnabled = false
+        } else {
+            topCenterButton.setTitle("O", for: .normal)
+            turn = true
+            topCenterButton.isEnabled = false
+        }
     }
     
     @IBAction func topRightButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   topRightButton.setTitle("X", for: .normal)
+                   turn = false
+                   topRightButton.isEnabled = false
+               } else {
+                   topRightButton.setTitle("O", for: .normal)
+                   turn = true
+                   topRightButton.isEnabled = false
+               }
+        
     }
+    
     @IBAction func centerLeftButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   centerLeftButton.setTitle("X", for: .normal)
+                   turn = false
+                   centerLeftButton.isEnabled = false
+               } else {
+                   centerLeftButton.setTitle("O", for: .normal)
+                   turn = true
+                   centerLeftButton.isEnabled = false
+               }
+        
     }
     @IBAction func centerCenterButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   centerCenterButton.setTitle("X", for: .normal)
+                   turn = false
+                   centerCenterButton.isEnabled = false
+               } else {
+                   centerCenterButton.setTitle("O", for: .normal)
+                   turn = true
+                   centerCenterButton.isEnabled = false
+               }
+        
     }
     @IBAction func centerRightButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   centerRightButton.setTitle("X", for: .normal)
+                   turn = false
+                   centerRightButton.isEnabled = false
+               } else {
+                   centerRightButton.setTitle("O", for: .normal)
+                   turn = true
+                   centerRightButton.isEnabled = false
+               }
+        
     }
     
     @IBAction func bottomLeftButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   bottomLeftButton.setTitle("X", for: .normal)
+                   turn = false
+                   bottomLeftButton.isEnabled = false
+               } else {
+                   bottomLeftButton.setTitle("O", for: .normal)
+                   turn = true
+                   bottomLeftButton.isEnabled = false
+               }
+        
     }
     
     @IBAction func bottomCenterButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   bottomCenterButton.setTitle("X", for: .normal)
+                   turn = false
+                   bottomCenterButton.isEnabled = false
+               } else {
+                   bottomCenterButton.setTitle("O", for: .normal)
+                   turn = true
+                   bottomCenterButton.isEnabled = false
+               }
+        
     }
     @IBAction func bottomRightButtonTapped(_ sender: UIButton) {
+         if turn == true {
+                   bottomRightButton.setTitle("X", for: .normal)
+                   turn = false
+                   bottomRightButton.isEnabled = false
+               } else {
+                   bottomRightButton.setTitle("O", for: .normal)
+                   turn = true
+                   bottomRightButton.isEnabled = false
+               }
     }
-    
-    
-    
-    
 }
     
     
